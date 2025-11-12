@@ -74,3 +74,19 @@ body {
     width: 16px;
 }
 
+.class-weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.class-temp{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.class-city{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
