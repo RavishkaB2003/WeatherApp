@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+    @import url('https://fonts.cdnfonts.com/css/junicode');
+    </style>
+    <link rel="stylesheet" href="style.css">
+                
+</head>
+<body>
+    <div class="searchcard">
+        <div class="search">
+            <input type="text" id="CityInput" placeholder="Enter City Name" spellcheck="false">
+            <button id="SearchBtn"><img src="assets/search.png" alt="Search" id="searchIcon"></button>
+        </div>
+        <p id="errorMsg">Please enter a valid city name</p>
+
+        <div class="weathercard">
+            <img src="assets/rain.png" class="class-weather-icon">
+            <h1 class="class-temp">0°C</h1>
+            <h2 class="class-city">City</h2>
+            <div class="details">
+                <div class="detail-item">
+                    <img src="assets/humidity.png" alt="Humidity" class="detail-icon">
+                    <p class="class-humidity-details">0%</p>
+                    <p class="detail-label">Humidity</p>
+                </div>
+                <div class="detail-item">
+                    <img src="assets/wind.png" alt="Wind" class="detail-icon">
+                    <p class="class-wind-details">0 km/h</p>
+                    <p class="detail-label">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="backend.js"></script>
+</body>
+</html>
